@@ -21,7 +21,7 @@ public class World {
                 if (fields[1].equals("large_airport")) {
                     Aeroport aero = new Aeroport(fields[9], fields[1], fields[5], parseDouble(fields[12]), parseDouble(fields[11]));
                     list.add(aero);
-                    System.out.println(aero);
+                    //System.out.println(aero);
                 }
                 s = buf.readLine();
             }
@@ -75,7 +75,8 @@ public class World {
         double distanceCDG = w.distance(48.866,2.316,cdg.getLongitude(),cdg.getLatitude());
         System.out.println(cdg);
         System.out.println(distanceCDG);
-        Aeroport tokyo = w.findNearestAirport(43.6532,-79.3832);
+        Aeroport tokyo = w.findNearestAirport(35.6762,139.6503);
         System.out.println(tokyo);
+
     }
 }

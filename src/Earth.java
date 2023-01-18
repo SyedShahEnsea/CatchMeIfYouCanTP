@@ -2,6 +2,8 @@ import javafx.animation.AnimationTimer;
 import javafx.geometry.Point3D;
 import javafx.scene.Group;
 import javafx.scene.image.Image;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Material;
 import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.Sphere;
 import javafx.scene.transform.Rotate;
@@ -23,23 +25,27 @@ public class Earth extends Group{
         this.sph.setMaterial(this.material);
         this.getChildren().add(this.sph);
         this.getTransforms().add(this.ry);
-        this.ry.setAxis(Rotate.Y_AXIS);
 
         AnimationTimer animationTimer = new AnimationTimer() {
             @Override
             public void handle(long time) {
-                System.out.println("Valeur de time : " + time);
+                ry.setAxis(Rotate.Y_AXIS);
                 ry.setAngle(time/(1.5e10/360));
 
             }
         };
         animationTimer.start();
     }
-    public void createSphere(){
-        this.sph = new Sphere(300);
+    public Sphere createSphere(Aeroport a, Color color){
+            Sphere redSphere = new Sphere(2);
+            PhongMaterial m = new PhongMaterial();
+            m.setDiffuseColor(color);
+            redSphere.setMaterial(m);
+            return redSphere;
     }
 
     public Earth getEarth(){
+
         return this;
     }
 }
