@@ -35,7 +35,7 @@ public class JsonFlightFiller {
                     //Le getString permet de récupérer la valeur en fournissant la clé. Par exemple getString("iata") nous retourne la valeur  retrouve a la clé "iata"
                     //Nous utilisons un parser pour convertir le string en format LocalDateTime.
                     //Nous avons parfois l'erreur "javax.json.JsonValueImpl cannot be cast to class javax.json.JsonString". Ceci arrive quand une valeur retourné par l'API est null
-                    Flight f = new Flight(result.getJsonObject("airline").getString("iata"),result.getJsonObject("airline").getString("name"),LocalDateTime.parse(result.getJsonObject("arrival").getString("scheduled"),formatter),LocalDateTime.parse(result.getJsonObject("departure").getString("scheduled"),formatter),Integer.parseInt(result.getJsonObject("flight").getString("number")),w.findByCode(result.getJsonObject("arrival").getString("iata")),w.findByCode(result.getJsonObject("departure").getString("iata")));
+                    Flight f = new Flight(result.getJsonObject("airline").getString("iata"),result.getJsonObject("airline").getString("name"),LocalDateTime.parse(rdxesult.getJsonObject("arrival").getString("scheduled"),formatter),LocalDateTime.parse(result.getJsonObject("departure").getString("scheduled"),formatter),Integer.parseInt(result.getJsonObject("flight").getString("number")),w.findByCode(result.getJsonObject("arrival").getString("iata")),w.findByCode(result.getJsonObject("departure").getString("iata")));
                     list.add(f); //Ajout de du vol (objet flightà dans la liste list
                     System.out.println(f);
                 } catch (Exception e) {
