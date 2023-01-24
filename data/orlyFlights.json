@@ -1,0 +1,48 @@
+{"pagination":
+  {"limit":100,"offset":0,"count":6,"total":6},
+  "data":[{
+    "flight_date":"2023-01-21",
+    "flight_status":"scheduled",
+    "departure": {
+      "airport":"Seoul (Incheon)",
+      "timezone":"Asia\/Seoul",
+      "iata":"ICN",
+      "icao":"RKSI",
+      "terminal":"2",
+      "gate":"F",
+      "delay":10,
+      "scheduled":"2023-01-21T02:05:00+00:00",
+      "estimated":"2023-01-21T02:05:00+00:00",
+      "actual":null,
+      "estimated_runway":null,
+      "actual_runway":null
+    },
+    "arrival": {
+      "airport":"Charles De Gaulle",
+      "timezone":"Europe\/Paris",
+      "iata":"CDG",
+      "icao":"LFPG",
+      "terminal":"2E",
+      "gate":null,
+      "baggage":"42",
+      "delay":null,
+      "scheduled":"2023-01-21T08:20:00+00:00",
+      "estimated":"2023-01-21T08:20:00+00:00",
+      "actual":null,
+      "estimated_runway":null,
+      "actual_runway":null},
+    "airline":{
+      "name":"Air France",
+      "iata":"AF",
+      "icao":"AFR"
+    },
+    "flight":{
+      "number":"193",
+      "iata":"AF193",
+      "icao":"AFR193",
+      "codeshared":null
+    },
+    "aircraft":null,
+    "live":null
+  },
+    {"flight_date":"2023-01-21","flight_status":"scheduled","departure":{"airport":"Seoul (Incheon)","timezone":"Asia\/Seoul","iata":"ICN","icao":"RKSI","terminal":"2","gate":"F","delay":10,"scheduled":"2023-01-21T02:05:00+00:00","estimated":"2023-01-21T02:05:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"arrival":{"airport":"Charles De Gaulle","timezone":"Europe\/Paris","iata":"CDG","icao":"LFPG","terminal":"2E","gate":null,"baggage":"42","delay":null,"scheduled":"2023-01-21T08:20:00+00:00","estimated":"2023-01-21T08:20:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"airline":{"name":"KLM","iata":"KL","icao":"KLM"},"flight":{"number":"2347","iata":"KL2347","icao":"KLM2347","codeshared":{"airline_name":"air france","airline_iata":"af","airline_icao":"afr","flight_number":"193","flight_iata":"af193","flight_icao":"afr193"}},"aircraft":null,"live":null},{"flight_date":"2023-01-21","flight_status":"landed","departure":{"airport":"Shanghai Pudong International","timezone":"Asia\/Shanghai","iata":"PVG","icao":"ZSPD","terminal":"1","gate":"22","delay":10,"scheduled":"2023-01-21T00:35:00+00:00","estimated":"2023-01-21T00:35:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"arrival":{"airport":"Charles De Gaulle","timezone":"Europe\/Paris","iata":"CDG","icao":"LFPG","terminal":"2E","gate":null,"baggage":null,"delay":null,"scheduled":"2023-01-21T06:00:00+00:00","estimated":"2023-01-21T06:00:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"airline":{"name":"China Eastern Airlines","iata":"MU","icao":"CES"},"flight":{"number":"553","iata":"MU553","icao":"CES553","codeshared":null},"aircraft":{"registration":"B-2002","iata":"B77W","icao":"B77W","icao24":"780560"},"live":null},{"flight_date":"2023-01-21","flight_status":"scheduled","departure":{"airport":"Singapore Changi","timezone":"Asia\/Singapore","iata":"SIN","icao":"WSSS","terminal":"3","gate":"A14","delay":10,"scheduled":"2023-01-21T00:15:00+00:00","estimated":"2023-01-21T00:15:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"arrival":{"airport":"Charles De Gaulle","timezone":"Europe\/Paris","iata":"CDG","icao":"LFPG","terminal":"1","gate":null,"baggage":null,"delay":null,"scheduled":"2023-01-21T07:15:00+00:00","estimated":"2023-01-21T07:15:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"airline":{"name":"Singapore Airlines","iata":"SQ","icao":"SIA"},"flight":{"number":"336","iata":"SQ336","icao":"SIA336","codeshared":null},"aircraft":{"registration":"9V-SWB","iata":"B77W","icao":"B77W","icao24":"76CEE2"},"live":{"updated":"2023-01-22T00:51:10+00:00","latitude":34.79,"longitude":52.36,"altitude":10363.2,"direction":302,"speed_horizontal":787.1,"speed_vertical":0,"is_ground":false}},{"flight_date":"2023-01-21","flight_status":"scheduled","departure":{"airport":"Suvarnabhumi International","timezone":"Asia\/Bangkok","iata":"BKK","icao":"VTBS","terminal":null,"gate":null,"delay":null,"scheduled":"2023-01-21T00:05:00+00:00","estimated":"2023-01-21T00:05:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"arrival":{"airport":"Charles De Gaulle","timezone":"Europe\/Paris","iata":"CDG","icao":"LFPG","terminal":"2E","gate":null,"baggage":null,"delay":null,"scheduled":"2023-01-21T06:50:00+00:00","estimated":"2023-01-21T06:50:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"airline":{"name":"Thai Airways International","iata":"TG","icao":"THA"},"flight":{"number":"930","iata":"TG930","icao":"THA930","codeshared":null},"aircraft":{"registration":"HS-TKU","iata":"B77W","icao":"B77W","icao24":"885175"},"live":{"updated":"2023-01-22T00:05:55+00:00","latitude":32.3,"longitude":56.08,"altitude":9753.6,"direction":302,"speed_horizontal":805.62,"speed_vertical":0,"is_ground":false}},{"flight_date":"2023-01-21","flight_status":"scheduled","departure":{"airport":"Indira Gandhi International","timezone":"Asia\/Kolkata","iata":"DEL","icao":"VIDP","terminal":"3","gate":null,"delay":null,"scheduled":"2023-01-21T01:10:00+00:00","estimated":"2023-01-21T01:10:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"arrival":{"airport":"Charles De Gaulle","timezone":"Europe\/Paris","iata":"CDG","icao":"LFPG","terminal":"2E","gate":null,"baggage":"33","delay":null,"scheduled":"2023-01-21T07:05:00+00:00","estimated":"2023-01-21T07:05:00+00:00","actual":null,"estimated_runway":null,"actual_runway":null},"airline":{"name":"Air France","iata":"AF","icao":"AFR"},"flight":{"number":"225","iata":"AF225","icao":"AFR225","codeshared":null},"aircraft":{"registration":"F-HTYB","iata":"A359","icao":"A359","icao24":"39CF01"},"live":{"updated":"2023-01-22T00:51:12+00:00","latitude":26.95,"longitude":50.45,"altitude":10972.8,"direction":313,"speed_horizontal":746.356,"speed_vertical":0,"is_ground":false}}]}

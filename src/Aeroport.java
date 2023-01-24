@@ -5,6 +5,7 @@ public class Aeroport {
     protected double latitude;
     protected double longitude;
 
+   //Constructeur Aeroport
     public Aeroport(String IATA, String name, String country, double latitude, double longitude) {
         this.IATA = IATA;
         this.name = name;
@@ -13,6 +14,7 @@ public class Aeroport {
         this.longitude = longitude;
     }
 
+    //Les Getters
     public String getIATA() {
         return IATA;
     }
@@ -24,6 +26,7 @@ public class Aeroport {
     public double getLongitude() {
         return longitude;
     }
+
 
     @Override
     public String toString() {
